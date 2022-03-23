@@ -5,10 +5,13 @@ import 'element-plus/dist/index.css'
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import BaiduCalendar from "vue-baidu-calendar"
+
 
 axios.defaults.baseURL = "http://127.0.0.1:8050"
-
 const app = createApp(App)
+
+app.use(BaiduCalendar)
 
 app.use(VueAxios, axios)
 

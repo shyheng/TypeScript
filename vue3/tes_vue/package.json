@@ -14,6 +14,7 @@
     "vue": "^3.0.0",
     "vue-axios": "^3.4.1",
     "vue-axios-plugin": "^1.3.0",
+    "vue-baidu-calendar": "^1.0.8",
     "vue-class-component": "^8.0.0-0"
   },
   "devDependencies": {
